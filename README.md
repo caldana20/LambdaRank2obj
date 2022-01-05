@@ -6,6 +6,9 @@ Installation
 ----------------
 git clone https://github.com/caldana20/LightGBM.git -b lambdarank2obj
 
+compile and install following https://lightgbm.readthedocs.io/en/latest/Installation-Guide.html
+
+
 Usage
 ----------------
 generate data by running gen_data.ipynb notebook
