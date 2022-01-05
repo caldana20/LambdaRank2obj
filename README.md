@@ -3,12 +3,11 @@ LambdaRank with two objective function
 =======================================
 
 
-
 Usage
 ----------------
+generate data by running gen_data.ipynb notebook
 
-
-
+test_ltr2obj.ipynb test with extended MSLR-WEB10K dataset
 
 ```
 
