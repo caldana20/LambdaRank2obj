@@ -2,6 +2,9 @@
 LambdaRank with two objective function
 =======================================
 
+Installation
+----------------
+git clone https://github.com/caldana20/LightGBM.git -b lambdarank2obj
 
 Usage
 ----------------
