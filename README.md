@@ -4,17 +4,25 @@ LambdaRank with two objective function
 
 Installation
 ----------------
-git clone https://github.com/caldana20/LightGBM.git -b lambdarank2obj
 
-compile and install following https://lightgbm.readthedocs.io/en/latest/Installation-Guide.html:
+compile and install the branch:
 
 ```
-git clone --recursive https://github.com/microsoft/LightGBM
+git clone --recursive https://github.com/caldana20/LightGBM.git -b lambdarank2obj
 cd LightGBM
 mkdir build
 cd build
 cmake ..
 make -j4
+```
+
+Create and activate a new conda enviroment.
+
+Install python package:
+
+```
+cd python-package
+python setup.py install
 ```
 
 
