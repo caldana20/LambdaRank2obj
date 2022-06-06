@@ -6,7 +6,16 @@ Installation
 ----------------
 git clone https://github.com/caldana20/LightGBM.git -b lambdarank2obj
 
-compile and install following https://lightgbm.readthedocs.io/en/latest/Installation-Guide.html
+compile and install following https://lightgbm.readthedocs.io/en/latest/Installation-Guide.html:
+
+```
+git clone --recursive https://github.com/microsoft/LightGBM
+cd LightGBM
+mkdir build
+cd build
+cmake ..
+make -j4
+```
 
 
 Usage
